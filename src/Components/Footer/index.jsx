@@ -25,7 +25,7 @@ export default function Footer() {
           className="karla-text text-color text-sm"
           href="mailto:mailadresse"
         >
-          mailadresse
+          mail
         </a>
       </div>
     </S.Footer>
