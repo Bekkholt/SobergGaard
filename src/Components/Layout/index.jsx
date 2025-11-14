@@ -1,6 +1,6 @@
 import * as S from "./index.styles";
 import { Routes, Route } from "react-router-dom";
-import Header from "../Header";
+// import Header from "../Header";
 import Footer from "../Footer";
 import Hjem from "../../Pages/Hjem";
 import Om from "../../Pages/Om";
