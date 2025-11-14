@@ -11,7 +11,7 @@ import BestillTime from "../../Pages/BestillTime";
 export default function Layout() {
   return (
     <S.Pagewrapper>
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route index element={<Hjem />} />
         <Route path="/Pages/Om" element={<Om />} />
