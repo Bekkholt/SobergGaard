@@ -23,7 +23,7 @@ export default function Hjem() {
           </button> */}
         </Link>
         <div class="flex items-center">
-<div class="m-5 p-2 max-w-sm bg-lime-950 border border-gray-800 rounded-lg dark:bg-gray-800 dark:border-gray-700 shadow-xl transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+<div class="m-5 p-2 max-w-sm back-color border border-gray-800 rounded-lg shadow-xl transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
     <a href="../../Pages/Om">
         <img class="rounded-t-lg" src={AP1} alt="" />
     </a>
@@ -40,7 +40,7 @@ export default function Hjem() {
         </a>
     </div>
 </div>
-<div class="m-5 p-2 max-w-sm bg-lime-950 border border-gray-800 rounded-lg dark:bg-gray-800 dark:border-gray-700 shadow-xl transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+<div class="m-5 p-2 max-w-sm back-color border border-gray-800 rounded-lg shadow-xl transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
     <a href="../../Pages/BestillTime">
         <img class="rounded-t-lg" src={AP2} alt="" />
     </a>
@@ -57,7 +57,7 @@ export default function Hjem() {
         </a>
     </div>
 </div>
-<div class="m-5 p-2 max-w-sm bg-lime-950 border border-gray-800 rounded-lg dark:bg-gray-800 dark:border-gray-700 shadow-xl transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+<div class="m-5 p-2 max-w-sm back-color border border-gray-800 rounded-lg shadow-xl transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
     <a href="../../Pages/FAQ">
         <img class="rounded-t-lg" src={AP3} alt="" />
     </a>
