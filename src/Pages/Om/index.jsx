@@ -1,7 +1,4 @@
 import * as S from "./index.styles";
-import Heidi1 from "../../Images/Screenshot 2024-07-10 112509.jpg";
-import Heidi2 from "../../Images/Screenshot 2024-07-10 112331.jpg";
-import PGA from "../../Images/Logo_CMYK_PGA_of_Norway.jpg";
 
 export default function Om() {
   return (

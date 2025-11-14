@@ -4,7 +4,7 @@ export const MiddleContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 25vh;
+  padding-top: 10vh;
 `;
 
 export const BottomContent = styled.div`

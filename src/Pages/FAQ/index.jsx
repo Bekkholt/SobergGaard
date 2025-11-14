@@ -1,5 +1,4 @@
 import * as S from "./index.styles";
-import Golf from "../../Images/Screenshot 2024-07-12 102810.jpg";
 
 export default function FAQ() {
   return (
@@ -47,13 +46,6 @@ export default function FAQ() {
             Ja, ta kontakt på mail, så finner vi en løsning.
           </p>
           <S.ImageDiv>
-            <img
-              alt="Golf ball on a field"
-              src={Golf}
-              className="p-5"
-              height={500}
-              width={500}
-            ></img>
           </S.ImageDiv>
         </div>
       </S.TextContent>
