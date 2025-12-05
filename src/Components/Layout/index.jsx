@@ -14,10 +14,10 @@ export default function Layout() {
       {/* <Header /> */}
       <Routes>
         <Route index element={<Hjem />} />
-        <Route path="/Pages/Om" element={<Apartment1 />} />
-        <Route path="/Pages/FAQ" element={<Apartment3 />} />
+        <Route path="/Pages/Apartment1" element={<Apartment1 />} />
+        <Route path="/Pages/Apartment3" element={<Apartment3 />} />
         <Route path="/Pages/TimerOgPriser" element={<TimerOgPriser />} />
-        <Route path="/Pages/BestillTime" element={<Apartment2 />} />
+        <Route path="/Pages/Apartment2" element={<Apartment2 />} />
       </Routes>
       <S.Body />
       <Footer />
