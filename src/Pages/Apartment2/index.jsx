@@ -26,7 +26,7 @@ const schema = yup
   })
   .required();
 
-export default function BestillTime() {
+export default function Apartment2() {
   const { register } = useForm({
     resolver: yupResolver(schema),
   });

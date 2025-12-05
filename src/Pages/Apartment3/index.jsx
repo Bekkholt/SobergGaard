@@ -1,6 +1,6 @@
 import * as S from "./index.styles";
 
-export default function FAQ() {
+export default function Apartment3() {
   return (
     <S.OuterDiv>
       <S.TextContent>

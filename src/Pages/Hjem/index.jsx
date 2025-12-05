@@ -14,70 +14,45 @@ export default function Hjem() {
         <p className="golos-text text-color text-2xl pb-5 px-5 text-center">
           Your next holiday
         </p>
-        <Link to="/Pages/BestillTime">
-          {/* <button
-            type="button"
-            className="karla-text text-color bg-orange-700 hover:bg-orange-950 font-medium rounded-lg text-lg px-5 py-2.5 me-2 drop-shadow-2xl"
-          >
-            Gå inn her
-          </button> */}
-        </Link>
         <div class="flex items-center flex-wrap">
 <div class="m-5 p-2 max-w-sm back-color border border-gray-800 rounded-lg shadow-xl transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
-    <a href="../../Pages/Om">
+    <a href="../../Pages/Apartment1">
         <img class="rounded-t-lg" src={AP1} alt="" />
     </a>
     <div class="p-5">
-        <a href="../../Pages/Om">
+        <Link to="/src/Pages/Apartment1">
             <h5 class="mb-2 text-2xl tiktok-sans-text-bold tracking-tight text-color dark:text-white">Title</h5>
-        </a>
         <p class="mb-3 tiktok-sans-text text-color dark:text-gray-900">Card-text goes here. Image, title and button goes to page with more info.</p>
-        <a href="../../Pages/Om" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-color bg-sky-950 rounded-lg hover:bg-sky-900 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-green-800 dark:focus:ring-blue-800">
-            Button
-             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-            </svg>
-        </a>
+      </Link>
     </div>
 </div>
 <div class="m-5 p-2 max-w-sm back-color border border-gray-800 rounded-lg shadow-xl transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
-    <a href="../../Pages/BestillTime">
+    <Link to="/src/Pages/Apartment2">
         <img class="rounded-t-lg" src={AP2} alt="" />
-    </a>
+    </Link>
     <div class="p-5">
-        <a href="../../Pages/BestillTime">
+        <a href="../../Pages/Apartment2">
             <h5 class="mb-2 text-2xl tiktok-sans-text-bold tracking-tight text-color dark:text-white">Title</h5>
-        </a>
+
         <p class="mb-3 tiktok-sans-text text-color dark:text-gray-900">Card-text goes here. Image, title and button goes to page with more info.</p>
-        <a href="../../Pages/BestillTime" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-color bg-sky-950 rounded-lg hover:bg-sky-900 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-green-800 dark:focus:ring-blue-800">
-            Button
-             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-            </svg>
-        </a>
+      </a>
     </div>
 </div>
 <div class="m-5 p-2 max-w-sm back-color border border-gray-800 rounded-lg shadow-xl transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
-    <a href="../../Pages/FAQ">
+    <Link to="/src/Pages/Apartment3">
         <img class="rounded-t-lg" src={AP3} alt="" />
-    </a>
+    </Link>
     <div class="p-5">
-        <a href="../../Pages/FAQ">
+        <a href="../../Pages/Apartment3">
             <h5 class="mb-2 text-2xl tiktok-sans-text-bold tracking-tight text-color dark:text-white">Title</h5>
-        </a>
         <p class="mb-3 tiktok-sans-text text-color dark:text-gray-900">Card-text goes here. Image, title and button goes to page with more info.</p>
-        <a href="../../Pages/FAQ" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-color bg-sky-950 rounded-lg hover:bg-sky-900 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-green-800 dark:focus:ring-blue-800">
-            Button
-             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-            </svg>
-        </a>
+      </a>
     </div>
 </div>
 </div>
       </S.MiddleContent>
-      {/* <S.BottomContent>
-      </S.BottomContent> */}
+      <S.BottomContent>
+      </S.BottomContent>
     </div>
   );
 }
