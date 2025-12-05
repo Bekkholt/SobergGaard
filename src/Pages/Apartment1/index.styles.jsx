@@ -20,11 +20,3 @@ export const ImageContent = styled.div`
   justify-content: space-around;
   padding-bottom: 10%;
 `;
-
-export const PGA = styled.div`
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding-top: 10%;
-  padding-bottom: 10%;
-`;
