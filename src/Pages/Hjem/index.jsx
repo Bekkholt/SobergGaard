@@ -22,7 +22,7 @@ export default function Hjem() {
     <div class="p-5">
         <Link to="/src/Pages/Apartment1">
             <h5 class="mb-2 text-2xl tiktok-sans-text-bold tracking-tight text-color dark:text-white">Title</h5>
-        <p class="mb-3 tiktok-sans-text text-color dark:text-gray-900">Card-text goes here. Image, title and button goes to page with more info.</p>
+        <p class="mb-3 tiktok-sans-text text-color dark:text-gray-900">Card-text goes here. Card goes to page with more info.</p>
       </Link>
     </div>
 </div>
@@ -34,7 +34,7 @@ export default function Hjem() {
         <a href="../../Pages/Apartment2">
             <h5 class="mb-2 text-2xl tiktok-sans-text-bold tracking-tight text-color dark:text-white">Title</h5>
 
-        <p class="mb-3 tiktok-sans-text text-color dark:text-gray-900">Card-text goes here. Image, title and button goes to page with more info.</p>
+        <p class="mb-3 tiktok-sans-text text-color dark:text-gray-900">Card-text goes here. Card goes to page with more info.</p>
       </a>
     </div>
 </div>
@@ -45,7 +45,7 @@ export default function Hjem() {
     <div class="p-5">
         <a href="../../Pages/Apartment3">
             <h5 class="mb-2 text-2xl tiktok-sans-text-bold tracking-tight text-color dark:text-white">Title</h5>
-        <p class="mb-3 tiktok-sans-text text-color dark:text-gray-900">Card-text goes here. Image, title and button goes to page with more info.</p>
+        <p class="mb-3 tiktok-sans-text text-color dark:text-gray-900">Card-text goes here. Card goes to page with more info.</p>
       </a>
     </div>
 </div>
