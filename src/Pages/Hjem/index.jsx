@@ -16,14 +16,12 @@ export default function Hjem() {
         </p>
         <div class="flex items-center flex-wrap">
 <div class="m-5 p-2 max-w-sm back-color border border-gray-800 rounded-lg shadow-xl transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
-    <a href="../../Pages/Apartment1">
+    <Link to="/src/Pages/Apartment1">
         <img class="rounded-t-lg" src={AP1} alt="" />
-    </a>
+   </Link>
     <div class="p-5">
-        <Link to="/src/Pages/Apartment1">
             <h5 class="mb-2 text-2xl tiktok-sans-text-bold tracking-tight text-color dark:text-white">Title</h5>
         <p class="mb-3 tiktok-sans-text text-color dark:text-gray-900">Card-text goes here. Card goes to page with more info.</p>
-      </Link>
     </div>
 </div>
 <div class="m-5 p-2 max-w-sm back-color border border-gray-800 rounded-lg shadow-xl transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
