@@ -2,19 +2,21 @@ import styled from "styled-components";
 
 export const OuterDiv = styled.div`
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
   padding-top: 10vh;
+  padding-left: 10px;
+  padding-right: 10px;
 `;
 
 export const TextContent = styled.div`
   display: flex;
   flex-direction: column;
-  width: 65%;
+  width: 50%;
 `;
 
-export const ImageDiv = styled.div`
+export const ImageContent = styled.div`
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 10%;
 `;
