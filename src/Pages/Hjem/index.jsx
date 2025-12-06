@@ -14,7 +14,7 @@ export default function Hjem() {
         <p className="golos-text text-color text-2xl pb-5 px-5 text-center">
           Your next holiday
         </p>
-        <div class="flex items-center flex-wrap">
+        <S.Flex>
         <Link to="/src/Pages/Apartment1">
         <div class="m-5 p-2 max-w-sm back-color border border-gray-800 rounded-lg shadow-xl transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
         <img class="rounded-t-lg" src={AP1} alt="" />
@@ -51,7 +51,7 @@ export default function Hjem() {
     </div>
 </div>
     </Link>
-</div>
+</S.Flex>
       </S.MiddleContent>
       <S.BottomContent>
       </S.BottomContent>

@@ -7,6 +7,12 @@ export const MiddleContent = styled.div`
   padding-top: 10vh;
 `;
 
+export const Flex = styled.div`
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+`;
+
 export const BottomContent = styled.div`
   display: flex;
   justify-content: flex-end;
