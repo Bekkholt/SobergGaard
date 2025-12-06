@@ -23,7 +23,7 @@ export default function Apartment2() {
                   <Link to="../">
                   <button
                     type="button"
-                    className="pt-40 tiktok-sans-text text-color dark:text-gray-900 hover:text-gray-950 text-lg"
+                    className="pt-40 mb-10 tiktok-sans-text text-color dark:text-gray-900 hover:text-gray-950 text-lg"
                   >
                     Back to homepage
                   </button>
