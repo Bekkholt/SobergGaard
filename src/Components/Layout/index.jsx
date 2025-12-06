@@ -4,9 +4,9 @@ import { Routes, Route } from "react-router-dom";
 import Footer from "../Footer";
 import Hjem from "../../Pages/Hjem";
 import Apartment1 from "../../Pages/Apartment1";
-import Apartment3 from "../../Pages/Apartment3";
-import TimerOgPriser from "../../Pages/TimerOgPriser";
 import Apartment2 from "../../Pages/Apartment2";
+import Apartment3 from "../../Pages/Apartment3";
+// import TimerOgPriser from "../../Pages/TimerOgPriser";
 
 export default function Layout() {
   return (
@@ -14,10 +14,10 @@ export default function Layout() {
       {/* <Header /> */}
       <Routes>
         <Route index element={<Hjem />} />
-        <Route path="/Pages/Apartment1" element={<Apartment1 />} />
-        <Route path="/Pages/Apartment3" element={<Apartment3 />} />
-        <Route path="/Pages/TimerOgPriser" element={<TimerOgPriser />} />
-        <Route path="/Pages/Apartment2" element={<Apartment2 />} />
+        <Route path="/src/Pages/Apartment1" element={<Apartment1/>} />
+        <Route path="/src/Pages/Apartment2" element={<Apartment2/>} />
+        <Route path="/src/Pages/Apartment3" element={<Apartment3/>} />
+        {/* <Route path="/Pages/TimerOgPriser" element={<TimerOgPriser />} /> */}
       </Routes>
       <S.Body />
       <Footer />

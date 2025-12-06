@@ -24,7 +24,7 @@ export default function Hjem() {
     </div>
 </div>
    </Link>
-    <Link to="/src/Pages/Apartment2">
+    <Link to={"/src/Pages/Apartment2"}>
     <div class="m-5 p-2 max-w-sm back-color border border-gray-800 rounded-lg shadow-xl transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
 
         <img class="rounded-t-lg" src={AP2} alt="" />
