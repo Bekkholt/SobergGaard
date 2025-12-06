@@ -1,4 +1,5 @@
 import * as S from "./index.styles";
+import { Link } from "react-router-dom";
 import AP1 from "../../Images/Screenshot 2025-11-14 104106-min.jpg"
 import AP2 from "../../Images/Screenshot 2025-11-14 104126-min.jpg"
 import AP3 from "../../Images/Screenshot 2025-11-14 123406-min.jpg"
@@ -19,6 +20,14 @@ export default function Apartment1() {
         <p className="tiktok-sans-text text-color dark:text-gray-900 sm:w-32 md:w-2/4 lg:w-2/4 pb-1 px-1">mail@mail.com          
         </p>
         </div>
+          <Link to="../">
+          <button
+            type="button"
+            className="pt-40 tiktok-sans-text text-color dark:text-gray-900 hover:text-gray-950 text-lg"
+          >
+            Back to homepage
+          </button>
+        </Link>
       </S.TextContent>
       <S.ImageContent>
         <img
