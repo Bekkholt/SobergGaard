@@ -13,10 +13,12 @@ export default function Footer() {
         <p className="karla-text text-color text-sm">Contact:</p>
         <a
           className="karla-text text-color text-sm"
-          href="mailto:mailadresse"
+          href="mailto:morten@morco.no"
         >
-          mail
+          morten@morco.no
         </a>
+        <p className="karla-text text-color text-sm">+4790948997</p>
+        <p className="karla-text text-color text-sm">Norvikvegen 429, 6350 Eidsbygda, NORWAY</p>
       </div>
     </S.Footer>
   );
