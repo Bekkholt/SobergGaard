@@ -9,7 +9,7 @@ export default function Hjem() {
     <div className="home-background">
       <S.MiddleContent>
         <p className="golos-text text-color underline underline-offset-4 text-4xl px-5 text-center">
-          SØBERG GÅRD
+          SØBERG NORGE
         </p>
         <p className="golos-text text-color text-2xl pb-5 px-5 text-center">
           Your next holiday
