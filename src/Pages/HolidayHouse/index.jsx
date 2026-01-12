@@ -8,17 +8,32 @@ export default function HolidayHouse() {
   return (
 <S.OuterDiv>
       <S.TextContent>
-        <h1 className="golos-text underline text-color text-2xl pb-5">Holiday House</h1>
+<h1 className="golos-text underline text-color text-2xl pb-5">The Holiday House – Room for the Whole Family</h1>
         <div>
-          <p className="tiktok-sans-text text-color dark:text-gray-900 sm:w-32 md:w-2/4 lg:w-2/4 pb-1 px-1">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime et quidem, voluptatem tenetur vitae enim sint laborum voluptatibus quod qui voluptatum beatae inventore odio, blanditiis ab. Aspernatur officiis debitis vitae.
-          </p>
+          <p className="tiktok-sans-text text-color dark:text-gray-900 sm:w-32 md:w-2/4 lg:w-2/4 pb-1 px-1 p-5">
+Our dedicated Holiday House is designed for larger groups who value comfort. With 150 m² of living space and 4 double bedrooms, this house comfortably accommodates up to 8 guests.</p>
+<p className="tiktok-sans-text text-color dark:text-gray-900 sm:w-32 md:w-2/4 lg:w-2/4 pb-1 px-1 p-5">The house features a large, spacious bathroom and a dedicated washing room, making longer stays convenient. It is the perfect place to gather the whole family in the living area for games or movies after a day out in nature. Outside, you can enjoy BBQ and dining on the terrace.</p>
         </div>
         <div>
-          <p className="pt-8 golos-text text-color text-2xl pb-5 sm:w-32 md:w-2/4 lg:w-2/4 pb-1 px-1">For booking      
+          <p className="tiktok-sans-text underline text-color dark:text-gray-900 sm:w-32 md:w-2/4 lg:w-2/4 pb-1 px-1 p-8">
+            Key Features:</p>
+            <p>
+<p className="tiktok-sans-text text-color dark:text-gray-900 sm:w-32 md:w-2/4 lg:w-2/4 pb-1 px-1 p-2">- Capacity: 8 guests (4 double bedrooms)</p>
+<p className="tiktok-sans-text text-color dark:text-gray-900 sm:w-32 md:w-2/4 lg:w-2/4 pb-1 px-1 p-2">- Size: 150 m² </p>
+<p className="tiktok-sans-text text-color dark:text-gray-900 sm:w-32 md:w-2/4 lg:w-2/4 pb-1 px-1 p-2">- Sanitary: Large bathroom. </p>
+<p className="tiktok-sans-text text-color dark:text-gray-900 sm:w-32 md:w-2/4 lg:w-2/4 pb-1 px-1 p-2">- Amenities: Laundry room, parking, TV, WiFi, fully equipped kitchen, terrace.</p>
+          </p>
+        </div>
+        <div className="pt-8">
+          <p className="pt-8 golos-text underline text-color text-2xl pb-5 sm:w-32 md:w-2/4 lg:w-2/4 pb-1 px-1">For booking      
         </p>
-        <p className="tiktok-sans-text text-color dark:text-gray-900 sm:w-32 md:w-2/4 lg:w-2/4 pb-1 px-1">mail@mail.com          
-        </p>
+        <a
+          className="tiktok-sans-text text-color dark:text-gray-900 sm:w-32 md:w-2/4 lg:w-2/4 pb-1 px-1"
+          href="mailto:morten@morco.no"
+        >
+          morten@morco.no
+        </a>
+        <p className="tiktok-sans-text text-color dark:text-gray-900 sm:w-32 md:w-2/4 lg:w-2/4 pb-1 px-1 mt-2">+4790948997</p>
         </div>
                   <Link to="../">
                   <button
