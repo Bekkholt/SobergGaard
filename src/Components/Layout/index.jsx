@@ -5,7 +5,7 @@ import Footer from "../Footer";
 import Hjem from "../../Pages/Hjem";
 import Smia from "../../Pages/Smia";
 import Borgstua from "../../Pages/Borgstua";
-import Apartment3 from "../../Pages/Apartment3";
+import Forpakterbolig from "../../Pages/Forpakterbolig";
 import HolidayHouse from "../../Pages/HolidayHouse";
 // import TimerOgPriser from "../../Pages/TimerOgPriser";
 
@@ -17,7 +17,7 @@ export default function Layout() {
         <Route index element={<Hjem />} />
         <Route path="/src/Pages/Smia" element={<Smia/>} />
         <Route path="/src/Pages/Borgstua" element={<Borgstua/>} />
-        <Route path="/src/Pages/Apartment3" element={<Apartment3/>} />
+        <Route path="/src/Pages/Forpakterbolig" element={<Forpakterbolig/>} />
         <Route path="/src/Pages/HolidayHouse" element={<HolidayHouse/>} />
         {/* <Route path="/Pages/TimerOgPriser" element={<TimerOgPriser />} /> */}
       </Routes>

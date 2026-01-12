@@ -2,13 +2,13 @@ import * as S from "./index.styles";
 import { Link } from "react-router-dom";
 import AP1 from "../../Images/Screenshot 2025-11-14 104106-min.jpg"
 import AP2 from "../../Images/Screenshot 2025-11-14 104126-min.jpg"
-import AP3 from "../../Images/Screenshot 2025-11-14 123406-min.jpg"
+import ForpakterboligIMG from "../../Images/Screenshot 2025-11-14 123406-min.jpg"
 
 export default function Borgstua() {
   return (
 <S.OuterDiv>
       <S.TextContent>
-        <h1 className="golos-text underline text-color text-2xl pb-5">Apartment 3</h1>
+        <h1 className="golos-text underline text-color text-2xl pb-5">Forpakterbolig</h1>
         <div>
           <p className="tiktok-sans-text text-color dark:text-gray-900 sm:w-32 md:w-2/4 lg:w-2/4 pb-1 px-1">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime et quidem, voluptatem tenetur vitae enim sint laborum voluptatibus quod qui voluptatum beatae inventore odio, blanditiis ab. Aspernatur officiis debitis vitae.
@@ -45,8 +45,8 @@ export default function Borgstua() {
           width={200}
         ></img>
         <img
-          alt="AP3"
-          src={AP3}
+          alt="ForpakterboligIMG"
+          src={ForpakterboligIMG}
           className="pb-5 sm:w-32 md:w-32 lg:w-48"
           height={200}
           width={200}
