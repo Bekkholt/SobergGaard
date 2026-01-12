@@ -1,6 +1,6 @@
 import * as S from "./index.styles";
 import AP1 from "../../Images/Screenshot 2025-11-14 104106-min.jpg"
-import AP2 from "../../Images/Screenshot 2025-11-14 104126-min.jpg"
+import BorgstuaIMG from "../../Images/Screenshot 2025-11-14 104126-min.jpg"
 import AP3 from "../../Images/Screenshot 2025-11-14 123406-min.jpg"
 import holidayhouse from "../../Images/holiday_house.jpg"
 import { Link } from "react-router-dom";
@@ -16,16 +16,16 @@ export default function Hjem() {
           Your next holiday
         </p>
         <S.Flex>
-              <Link to={"/src/Pages/Apartment2"}>
+              <Link to={"/src/Pages/Borgstua"}>
     <div class="m-5 p-2 max-w-sm back-color border border-gray-800 rounded-lg shadow-xl transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
 
-        <img class="rounded-t-lg" src={AP2} alt="" />
+        <img class="rounded-t-lg" src={BorgstuaIMG} alt="" />
 
     <div class="p-5">
-        <a href="../../Pages/Apartment2">
-            <h5 class="mb-2 text-2xl tiktok-sans-text-bold tracking-tight text-color dark:text-white">Title</h5>
+        <a href="../../Pages/Borgstua">
+            <h5 class="mb-2 text-2xl tiktok-sans-text-bold tracking-tight text-color dark:text-white">Borgstua</h5>
 
-        <p class="mb-3 tiktok-sans-text text-color dark:text-gray-900">Card-text goes here. Card goes to page with more info.</p>
+        <p class="mb-3 tiktok-sans-text text-color dark:text-gray-900">Cabin with 2 double bedrooms, perfect for a family of 4, 70 m2.</p>
       </a>
     </div>
 </div>

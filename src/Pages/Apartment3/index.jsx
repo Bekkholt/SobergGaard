@@ -4,7 +4,7 @@ import AP1 from "../../Images/Screenshot 2025-11-14 104106-min.jpg"
 import AP2 from "../../Images/Screenshot 2025-11-14 104126-min.jpg"
 import AP3 from "../../Images/Screenshot 2025-11-14 123406-min.jpg"
 
-export default function Apartment3() {
+export default function Borgstua() {
   return (
 <S.OuterDiv>
       <S.TextContent>
