@@ -9,8 +9,8 @@ export const MiddleContent = styled.div`
 
 export const Flex = styled.div`
 display: flex;
-flex-direction: column;
 flex-wrap: wrap;
+justify-content: center;
 `;
 
 export const BottomContent = styled.div`
