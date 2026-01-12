@@ -19,7 +19,7 @@ export default function Hjem() {
               <Link to={"/src/Pages/Borgstua"}>
     <div class="m-5 p-2 max-w-sm back-color border border-gray-800 rounded-lg shadow-xl transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
 
-        <img class="rounded-t-lg" src={BorgstuaIMG} alt="" />
+        <img class="rounded-t-lg" src={BorgstuaIMG} alt="BorgstuaIMG" />
 
     <div class="p-5">
         <a href="../../Pages/Borgstua">
@@ -33,7 +33,7 @@ export default function Hjem() {
               <Link to="/src/Pages/Smia">
     <div class="m-5 p-2 max-w-sm back-color border border-gray-800 rounded-lg shadow-xl transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
 
-        <img class="rounded-t-lg" src={SmiaIMG} alt="" />
+        <img class="rounded-t-lg" src={SmiaIMG} alt="SmiaIMG" />
 
     <div class="p-5">
         <a href="../../Pages/Smia">
@@ -46,7 +46,7 @@ export default function Hjem() {
     </Link>
                <Link to="/src/Pages/HolidayHouse">
         <div class="m-5 p-2 max-w-sm back-color border border-gray-800 rounded-lg shadow-xl transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
-        <img class="rounded-t-lg" src={HolidayhouseIMG} alt="" />
+        <img class="rounded-t-lg" src={HolidayhouseIMG} alt="HolidayHouseIMG" />
           <div class="p-5">
             <h5 class="mb-2 text-2xl tiktok-sans-text-bold tracking-tight text-color dark:text-white">Holiday House</h5>
         <p class="mb-3 tiktok-sans-text text-color dark:text-gray-900">Big holiday house, 4 double bedrooms for a family of 8 people. 150 m2.</p>
@@ -56,7 +56,7 @@ export default function Hjem() {
         <Link to="/src/Pages/Forpakterbolig">
 <div class="m-5 p-2 max-w-sm back-color border border-gray-800 rounded-lg shadow-xl transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
 
-        <img class="rounded-t-lg" src={ForpakterboligIMG} alt="" />
+        <img class="rounded-t-lg" src={ForpakterboligIMG} alt="ForpakterboligIMG" />
 
     <div class="p-5">
         <a href="../../Pages/Forpakterbolig">
